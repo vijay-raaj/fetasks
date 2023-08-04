@@ -6,7 +6,8 @@
     <router-link to="/post">Post</router-link> |
     <router-link to="/delete">Delete</router-link> |
     <router-link to="/filter">Filter</router-link> |
-    <router-link to="/map">Map</router-link> 
+    <router-link to="/map">Map</router-link> |
+    <router-link to="/signup">SignUp</router-link> 
   </nav>
   <router-view/></div>
 </template>

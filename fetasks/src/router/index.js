@@ -5,6 +5,7 @@ import postMethod from '@/views/postMethod.vue'
 import deleteMethod from '@/views/deleteMethod.vue'
 import filterMethod from '@/views/filterMethod.vue'
 import mapMethods from '@/views/mapMethods.vue'
+import SignUp from '@/views/SignUp.vue'
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path:'/map',
     name:'map',
     component: mapMethods
+  },
+  {
+    path:'/signup',
+    name:'signup',
+    component: SignUp
   }
 ]
 
